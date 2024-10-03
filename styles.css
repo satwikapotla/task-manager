@@ -1,0 +1,57 @@
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #f0f8ff;
+    color: #212529;
+    font-family: Arial, sans-serif;
+}
+body.dark {
+    background-color: #343a40;
+    color: white;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress {
+    height: 20px;
+}
+#name {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.btn-small {
+    margin-right: 5px;
+}
+.buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.message {
+    font-style: italic;
+    color: #6c757d;
+}
+.today {
+    background-color: #d1e7dd;
+}
+.tomorrow {
+    background-color: #fff3cd;
+}
+#motive {
+    text-align: center;
+    margin: 20px 0;
+}
+#date {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+        
